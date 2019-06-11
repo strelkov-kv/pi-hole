@@ -1461,10 +1461,13 @@ ad(js\.php\?|log|click|view|cycle|vert|scrip|show|frame|ima?ge?|content|runner|s
 |http://banner.topping.com.ua/*
 |http://banner.kiev.ua/*
 |http://mediatraffic.com.ua/*
+|https://z.cdn.braun634.com/*
 |http://nnn.novoteka.ru/*
 |http://go.admulti.com/*
 |https://inv-nets.admixer.net/*
 |https://inv-nets-eu.admixer.net/*
+|https://static.t-ru.org/*
+|http://counter.yadro.ru/*
 |http://media.fairlink.ru/*
 |http://traf.biz/*
 |https://content.admixer.net/*
