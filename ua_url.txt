@@ -1,4 +1,4 @@
-﻿!
+!
 ! Общие правила применяемые в UA сегменте
 !
 
@@ -215,7 +215,6 @@
 ##.ad0
 ##.ad21
 ##.ad4
-~itavisen.no##.ad468
 ##.ad6
 ##.ad7
 ##.ad8
@@ -393,9 +392,8 @@
 ##.videoAd
 ##.visitweb_block
 ##[name="Ad_Image"]
-##a[href*=".twkv.ru"]
-##a[href*="sapmedia.ru"]
-##div.article-content-full-inner > div[onmouseover]
+##a[href*=".a4p.adpartner.pro"]
+##a[href*="cdn.jsdelivr.net"]
 ##div.bannerbg
 ##div.topbaner
 ##div[id^="AdFox_banner_"]
