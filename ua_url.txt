@@ -10,11 +10,9 @@
 ###AdvertFieldBottom
 ###AdvertFieldCenter
 ###AdvertFieldTop
-~designspotter.com###AdvertiseFrame
 ###Advertisement
 ###AdvertisingTopLine
 ###BanHolder28-1
-~interserve.com###BannerDiv
 ###BannerGBottom
 ###BannerGCenter
 ###BannerGIMG
@@ -45,7 +43,6 @@
 ###adP
 ###adWrapper
 ###advertisment
-~markt.de###adverts
 ###advrich
 ###advunder-top
 ###adzerk3
@@ -121,7 +118,6 @@
 ###lt-topbanner
 ###mailru_game_leftclicks
 ###mailru_game_righgtclicks
-~mediaget.com###mediaget_box
 ###mpu
 ###n_Ad
 ###nolix
@@ -132,10 +128,8 @@
 ###preS_BANNERID2
 ###premium-banner-1
 ###premium-banner-2
-~bipbip.co.il###printads
 ###promo > div.box
 ###promo > div.t_box
-~flickr.com###promo-ad
 ###promo_bottom > div.box
 ###promo_bottom > div.t_box
 ###qcash-extended-block
@@ -172,11 +166,9 @@
 ###sponsoradd
 ###sponsorbar
 ###sponsorbox
-~worldsbestbars.com###sponsored
 ###sponsored-ads
 ###sponsors
 ###teaser_block_div
-~hm.com###teasers
 ###teasers-sidebarleft
 ###teasers-top
 ###tizerclik
@@ -184,10 +176,7 @@
 ###top-advert-block
 ###top-advert-block-second
 ###top-banner
-~neowin.net###topBannerAd
-~morningstar.se###top_ad
 ###top_banner
-~trusted.ru###top_banners
 ###topad
 ###topads
 ###topbanners
@@ -254,7 +243,6 @@
 ##.baner_block
 ##.banex-banner
 ##.banfoot
-~aliexpress.com,~coursera.org,~techcrunch.com##.banner-body
 ##.banner-border-wrap
 ##.banner-head
 ##.banner-hold
