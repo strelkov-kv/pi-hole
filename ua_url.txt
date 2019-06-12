@@ -92,7 +92,6 @@ mbox.m.bigmir.net
 growth-pa.googleapis.com
 s.zmctrack.net
 prebid-eu.creativecdn.com
-s.bigmir.net
 stats.g.doubleclick.net
 pubs2-eu.creativecdn.com
 inv-nets.admixer.net
