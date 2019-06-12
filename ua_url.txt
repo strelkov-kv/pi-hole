@@ -75,7 +75,6 @@ gdeua.hit.gemius.pl
 script.hotjar.com
 inv-nets-eu.admixer.net
 cdn.tsyndicate.com
-c.bigmir.net
 cwdpgood
 ssymxrpp
 mvklhjqbjejykw
