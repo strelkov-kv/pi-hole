@@ -1,7 +1,8 @@
 ﻿!
 ! Общие правила применяемые в UA сегменте
 !
-# Ad filter list UA
+﻿# Adblock filter list UA
+!
 trafmag.com
 fwdcdn.com
 adtelligent.com
