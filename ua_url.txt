@@ -1,4 +1,4 @@
-﻿!
+!
 ! Общие правила применяемые в UA сегменте
 !
 ﻿# Adblock filter list UA
@@ -122,3 +122,7 @@ encrypted-tbn1.gstatic.com
 photosdata-pa.googleapis.com
 people-pa.googleapis.com
 lh3.googleusercontent.com
+content.admixer.net
+inv-nets-eu.admixer.net
+t.trafmag.com
+trafmag.com
