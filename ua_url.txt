@@ -1,4 +1,4 @@
-!
+﻿!
 ! Общие правила применяемые в UA сегменте
 !
 ﻿# Adblock filter list UA
@@ -267,6 +267,7 @@ us6odtasve.ru
 ||adplus.io^
 ||adpod.in^
 ||adpremium.ru^
+||a4p.adparther.pro^
 ||adpro.com.ua^
 ||adprofy.com^
 ||adreaction.ru^
@@ -3720,14 +3721,6 @@ ws*://video.docfilms.info^
 ||svitnews.com^
 ||vi.bigmir.net^
 ||widget.mediastealer.com^
-!
-! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/adservers.txt]
-!
-!
-! Section contains list of advertising networks
-!
-! The rules with hints are at the end of file
-!
 ||stoshoos.com^
 ||47f624b2e6c6072e.com^
 ||564d28256cddaeba.com^
@@ -5537,27 +5530,7 @@ www.llllllllllll.net^
 ||zedo.com^
 ||zeti.com^
 ||zptncsir.com^
-!+ NOT_OPTIMIZED
-||xk0x.cn^
-!+ NOT_OPTIMIZED
-||olc0.cn^
-!+ NOT_PLATFORM(ios)
 ||braun634.com^
-!
-! Ads reinjection (For apps only)
-!+ NOT_PLATFORM(windows, mac, android)
-||rcdn.pro^
-! https://github.com/AdguardTeam/AdguardFilters/issues/31688
-!
-! https://github.com/AdguardTeam/AdguardFilters/issues/23271
-||samsungads.com^
-!
-!
-! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/adservers_firstparty.txt]
-!
-!
-! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
-!
 ||pci.pornclipsxxx.com^
 ||d3t5ngjixpjdho.cloudfront.net^
 ||doo6pwib3qngu.cloudfront.net^
@@ -5734,10 +5707,6 @@ www.llllllllllll.net^
 ||js.bulkhentai.com^
 ||script.hqpass.com^
 ||d2t2on23g4lty1.cloudfront.net^
-!
-! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/TurkishFilter/sections/adservers.txt]
-!
-!
 ||adreman.pro^
 ||adrequests.com^
 ||smrtbnr.net^
@@ -5937,12 +5906,6 @@ www.llllllllllll.net^
 ||winaffiliates.com^
 ||xpornoizlex.net^
 ||xyztanitim.com^
-!
-! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/TurkishFilter/sections/adservers_firstparty.txt]
-!
-!
-! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
-!
 ||zafrc.5780.site^
 ||campaign.nmobs.com^
 ||bultenler.klscdn.com^
@@ -5986,73 +5949,8 @@ www.llllllllllll.net^
 ||ad.sacitaslan.com^
 ||cdn.hiperadverts.com^
 ||savoy.cubecdn.net^
-!
-! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/FrenchFilter/sections/adservers.txt]
-!
-!
-! Section contains list of advertising networks
-!
-||mystighty.info^
-||sohjah-thahka.info^
-||goitcl.com^
-!
-! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt]
-!
-!
-! Section contains list of advertising networks
-!
-!
-! ||mobileapptracking.com^ - don't block this domain with all subdomains. https://forum.adguard.com/index.php?threads/23917/
-!
-! https://github.com/AdguardTeam/AdguardFilters/issues/3933
-! Yandex apps
-||banners-slb.mobile.yandex.net^
-||banners.mobile.yandex.net^
-!
-! Crypto-mining -- block completely on mobile (without third-party)
 ||coinhive.com^
 ||coin-hive.com^
-!
-! https://github.com/AdguardTeam/AdguardFilters/issues/20567
-||bu1.duba.com^
-! https://github.com/AdguardTeam/AdguardFilters/issues/11291
-||behacdn.ksmobile.net^
-||cmdts.ksmobile.com^
-||p-behacdn.ksmobile.net^
-! https://github.com/AdguardTeam/AdguardFilters/issues/8762
-||m.yap.yahoo.com^
-! https://github.com/AdguardTeam/AdguardFilters/issues/8642
-||crosspromotion.weplayer.cc^
-||ad.weplayer.cc^
-! https://forum.adguard.com/index.php?threads/24268/
-||mobile-campaigns.avast.com^
-! https://forum.adguard.com/index.php?threads/s-photo-editor-missed-ads-android.21096/
-||advs2sonline.goforandroid.com^
-||adpush.goforandroid.com^
-||advonline.goforandroid.com^
-! https://forum.adguard.com/index.php?threads/dodonpachi-unlimited-missed-ads-android.21000/
-||dzpu6za66svjl.cloudfront.net^
-! com.camerasideas.instashot
-||ad.api.kaffnet.com^
-! https://github.com/AdguardTeam/AdguardFilters/issues/4757
-||ad.flipboard.com^
-! https://github.com/AdguardTeam/AdguardFilters/issues/4645
-||adserver.shadow.snapads.com^
-||ads-chunks.prod.ihrhls.com^
-! Watch ABC
-||api.ads.watchabc.go.com^
-! https://play.google.com/store/apps/details?id=fr.playsoft.teleloisirs
-||ad.prismamediadigital.com^
-! https://play.google.com/store/apps/details?id=fr.francetv.pluzz&hl=fr
-||ad2play.ftv-publicite.fr^
-! Supership.jp (also mobile ads)
-||socdm.com^
-!
-! Criteo mobile ads
-||criteo.com^
-||criteo.net^
-!
-! DU ads
 ||mblapi.ssl2.duapps.com^
 ||api.mobula.ds.duapps.com^
 ||noxagile.duapp.com^
@@ -6061,7 +5959,6 @@ www.llllllllllll.net^
 ||api.mobula.sdk.duapps.com^
 ||mobula.ssl2.duapps.com^
 ||ad.duapps.com^
-! Ads on some Chinese smartphones
 ||sync.mobojoy.baidu.com^
 ||api.mobojoy.baidu.com^
 ||js.mobojoy.baidu.com^
@@ -6075,7 +5972,6 @@ www.llllllllllll.net^
 ||54.222.186.106^
 ||plugin.mobopay.baidu.com^
 ||mo.freeindoapp.com^
-!
 ||activity.browser.intl.miui.com^
 ||api.brs.intl.miui.com^
 ||api.newsfeed.intl.miui.com^
@@ -6866,23 +6762,6 @@ www.llllllllllll.net^
 ||yuhuads.com^
 ||ziffdavis.com^
 ||zoglafi.info^
-!+ NOT_OPTIMIZED
-||hqsjc.com^
-!----- For HTTPS websites when HTTPS filtering is disabled ------
-||n152adserv.com^
-||rg.yottos.com^
-||weboohost.com^
-!----------------------------------------------------------------
-!
-! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/adservers.txt]
-!
-!
-! Section contains list of advertising networks
-!
-! https://github.com/AdguardTeam/AdguardFilters/issues/23113
-! ||weblio.jp^
-!
-! Yahoo
 ||promotionalads.yahoo.co.jp^
 ||adserver.yahoo.co.jp^
 ||smartads.mobile.yahoo.co.jp^
@@ -6895,256 +6774,6 @@ www.llllllllllll.net^
 ||yads.yahoo.co.jp^
 ||yads.yjtag.yahoo.co.jp^
 ||yjaxc.yahoo.co.jp^
-!
-! Supership.jp (also mobile ads)
-!
-! Shinobi.jp
-||adm.shinobi.jp^
-||adf.shinobi.jp^
-||axad.shinobi.jp^
-||bar*.shinobi.jp^
-||ct1.shinobi.jp^
-||ct2.shinobi.jp^
-||vis1.shinobi.jp^
-!
-! Rakuten.co.jp
-||affiliate.rakuten.co.jp^
-||afl.rakuten.co.jp^
-||ias.rakuten.co.jp^
-||rd.rakuten.co.jp^
-||ranking.rakuten.co.jp^
-!
-! Nikkeibp.co.jp
-||bizad.nikkeibp.co.jp^
-||ads.nikkeibp.co.jp^
-||adserve5.nikkeibp.co.jp^
-!
-! Livedoor.com
-||adv.livedoor.com^
-||counter2.blog.livedoor.com^
-!
-! Gunosy.com
-||ad.gunosy.com^
-||adapi.gunosy.com^
-||adntokyo.gunosy.com^
-||creatives.gunosy.com^
-!
-! Fc2.com
-||analyzer*.fc2.com^
-!
-! Excite.co.jp
-||nc-log.excite.co.jp^
-||adimp.excite.co.jp^
-||adimpkwd.excite.co.jp^
-!
-! Eimg.jp
-||adingo.jp.eimg.jp^
-!
-||aaacompany.net^
-||ad.adpon.jp^
-||sdqoi2d.com^
-||v4dwkcv.com^
-||appollo-plus.com^
-||fam-ad.com^
-||ap.ad-feed.com^
-||b16.nakanohito.jp^
-||bs.nakanohito.jp^
-||cs.nakanohito.jp^
-||uh.nakanohito.jp^
-||c.nakanohito.jp^
-||rec.x-lift.jp^
-||cdn.x-lift.jp^
-||blog.livelog.biz^
-||ad-nex.com^
-||js.isboost.co.jp^
-||appollo.jp^
-||ad-tag.biz^
-||ad-trip.com^
-||ad-shot.com^
-||ad-sell.com^
-||ad-seek.jp^
-||ad-count.jp^
-||ad-arata.com^
-||addeluxe.jp^
-||adfurikun.jp^
-||adingo.jp^
-||adjust-sp.jp^
-||adjust-net.jp^
-||adlantis.jp^
-||adplan-ds.com^
-||adplatform.jp^
-||adresult-sp.jp^
-||adserving.jp^
-||adticker.net^
-||advg.jp^
-||apserver.net^
-||aspm.jp^
-||atech.ne.jp^
-||clickmedias.info^
-||doubleclick.ne.jp^
-||fout.jp^
-||genieesspv.jp^
-||inmobi-jp.com^
-||j-a-net.jp^
-||lead-ad.jp^
-||livead.jp^
-||liveads.jp^
-||maio.jp^
-||maist.jp^
-||media-rep.com^
-||mediad.co.jp^
-||mediba.jp^
-||mopo.jp^
-||myiads.com^
-||adpriv.nikkei.com^
-||adb.nikkei.co.jp^
-||octopuspop.com^
-||servedby.openxmarket.jp^
-||ad.pitta.ne.jp^
-||ad.plus-a.net^
-||redirectvoluum.com^
-||sbs-ad.com^
-||searchteria.co.jp^
-||smartnews-ads.com^
-||speead.jp^
-||sprout-ad.com^
-||textad.net^
-||api.triver.jp^
-||trafficstars.com^
-||valueclick.ne.jp^
-||valueclick.jp^
-||valuecommerce.ne.jp^
-||yicha.jp^
-||ad.api.yyapi.net^
-||zeroredirect12.com^
-||zucks.net^
-||zucks.net.zimg.jp^
-||ad-move.jp^
-||rationalan.pro^
-||gum.dlbooks.to^
-||ad.ad-arata.com^
-||trafficjp.com^
-||a8.net^
-||10clicks.com^
-||1800cnt.com^
-||1rankingad.com^
-||203.183.90.6/
-||210.136.172.75^
-||218.145.28.155^
-||9vad.com^
-||a-pagerank.net^
-||ac8.i2i.jp^
-||accesstrade.net^
-||agilemedia.jp^
-||ad.axyzconductor.jp^
-||ad.brainer.jp^
-||ad.dic.nicovideo.jp^
-||ad.duga.jp^
-||ad.floq.jp^
-||ad.impressbm.co.jp^
-||ad.jp.ap.valuecommerce.com^
-||ad.kau.li^
-||ad.land.to^
-||ad.mainichi.jp^
-||ad.net-tool.jp^
-||ad.nicovideo.jp^
-||ad.oret.jp^
-||ad.response.jp^
-||ad.searchina.ne.jp^
-||ad.vippers.jp^
-||ad.watch.impress.co.jp^
-||ad.wiredvision.jp^
-||adbana.adultcity.tv^
-||adcommerce.jp^
-||addclips.org^
-||adnetworks.co.jp^
-||adonavi.jp^
-||ads.jlisting.jp^
-||ads.meropar.jp^
-||ads.metropolis.co.jp^
-||ads.mixi.jp^
-||ads.nicovideo.jp^
-||adstatic.ameba.jp^
-||affili.dmm.com^
-||affiliate-b.com^
-||an.mainichi.jp^
-||analytics.qlook.net^
-||api.unthem.com^
-||arms.livedoor.net^
-||assoc-amazon.jp^
-||ax.xrea.com^
-||b-click.net^
-||bana01.sakura.ne.jp^
-||banaad.sakura.ne.jp^
-||banacity.gasuki.com^
-||banner.blogranking.net^
-||banner.maido3.com^
-||blomoad.jp^
-||clicktrack2.ziyu.net^
-||colossal.jp^
-||cpro.baidu.com^
-||cyberwing.co.jp^
-||deqwas.net^
-||download.jword.jp^
-||eco-tag.jp^
-||find-a.jp^
-||fivecdm.com^
-||fresheye.com^
-||fxprime-popular.com^
-||garss.jp^
-||hitgraph.jp^
-||hitweb.chosun.com^
-||i2i.jp^
-||i2idata.com^
-||i2iserv.com^
-||image-rentracks.com^
-||itgear.jp^
-||japanmetrix.jp^
-||jpassport.jp^
-||jpg-server.com^
-||lcs.livedoor.net^
-||link-trade.net^
-||log.bling.samuraiworks.com^
-||logping.exblog.jp^
-||m.shanbara.jp^
-||magma-analytics.com^
-||match.seesaa.jp^
-||mcnt.jp^
-||microad.jp^
-||mobalyzer.net^
-||ot.ca-mpr.jp^
-||pvranking.com^
-||recommender.jp^
-||rentracks.jp^
-||rranking5.ziyu.net^
-||rssad.jp^
-||durasite.net^
-||scadnet.com^
-||search.jword.jp^
-||seoparts.com^
-||seoparts.net^
-||shopping.yahooapis.jp^
-||aag.yahooapis.jp^
-||entrypoint.search.yahooapis.jp^
-||siteanalytics.jp^
-||tag.nifty.com^
-||thatsping.jp^
-||tracer.jp^
-||tracker.kantan-access.com^
-||trackword.biz^
-||trafficgate.net^
-||trck.dlpo.jp^
-||trustclick.ne.jp^
-||tumabeni.com^
-||uad-api.nicovideo.jp^
-||web-jp.ad-v.jp^
-||webantenna.info^
-||webtracker.jp^
-||widget.zenback.jp^
-||w.zenback.jp^
-!
-! [Inclusion: https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt]
-!
 ||007-gateway.com^
 ||04dn8g4f.space^
 ||0emn.com^
@@ -25693,7 +25322,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||beacon.shazam.com^
 ||beha.ksmobile.com^
 ||bidder.mdspinc.com^
-||c.bigmir.net^
 ||cb.ksmobile.com^
 ||cedexis-radar.net^
 ||clientmetrics-augmentum.kik.com^
@@ -27880,16 +27508,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tracking.vengovision.ru^
 ||upstats.yadro.ru^
 ||viewstat.promoblocks.ru^
-! Ukranian
 ||informers.sinoptik.ua^
-! Vietnamese
-||analytics.mecloud.vn^
-!
-! Tracking
-!
-! replacing ||bpmonline.com^ from easyprivacy
-*.bpmonline.com^
-! https://github.com/AdguardTeam/AdguardDNS/issues/52
 ||analytics.twitter.com^
 ||click.aliexpress.com^$image,script
 ||clientlog.portal.office.com^
@@ -27904,9 +27523,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||t.9gag.com^
 ||t.appsflyer.com^
 ||tracking.epicgames.com^
-!
-! Ads
-!
 ||adocean.cz^
 ||doubleclick.net^
 ||tt.onthe.io^
@@ -27942,8 +27558,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ads.zdn.vn^
 ||zaloapp.ads.zdn.vn^
 ||zalo-ads-td.zadn.vn^
-shop.vnecdn.net^
-raovat.vnecdn.net^
+||shop.vnecdn.net^
+||raovat.vnecdn.net^
 ||pub.lavanetwork.net^
 ||delivery1.lavanetwork.net^
 ||libs.lavanetwork.net^
@@ -27983,126 +27599,124 @@ raovat.vnecdn.net^
 ||vimobi.com^
 ||channelvn.net^
 ||ad.org.vn^
-trafmag.com
-fwdcdn.com
-adtelligent.com
-clients1.google.com
-b.klcheck.com
-adpartner.pro
-gemius.pl
-gstatic.com
-byeej.com
-tsyndicate.com
-creativecdn.com
-klcheck.com
-clients4.google.com
-googleads.g.doubleclick.net
-doubleclick.net
-clients2.google.ru
-clients3.google.ru
-clients1.google.ru
-clients4.google.ru
-clients2.google.com
-clients3.google.com
-clients1.google.com.ua
-clients2.google.com.ua
-clients3.google.com.ua
-clients4.google.com.ua
-id.google.com.ua
-content.admixer.net
-fwdcdn.com
-createjs.com
-google-analytics.com
-googlesyndication.com
-googletagservices.com
-jsdelivr.net
-mediatraffic.com.ua
-mediawayss.com
-phnx.link
-a4p.adpartner.pro
-admixer.net
-googletagmanager.com
-zmctrack.net
-yadro.ru
-recreativ.ru
-mixadvert.com
-addthis.com
-crazyegg.com
-rferl.org
-scorecardresearch.com
-phoenix-widget.com
-ajax.googleapis.com
-gravitec.net
-disqus.com
-disquscdn.com
-gravitec.com
-playbuzz.com
-piguiqproxy.com
-leokross.com
-s7.addthis.com
-static.doubleclick.net
-scontent.fiev5-1.fna.fbcdn.net
-pagead2.googlesyndication.com
-i.mediatraffic.com.ua
-counter.yadro.ru
-i.ytimg.com
-s.ytimg.com
-static-cl.xhcdn.com
-thumb-v-cl2.xhcdn.com
-am.phnx.link
-source.mmi.bemobile.ua
-gdeua.hit.gemius.pl
-script.hotjar.com
-inv-nets-eu.admixer.net
-cdn.tsyndicate.com
-cwdpgood
-ssymxrpp
-mvklhjqbjejykw
-compress.googlezip.net
-check.googlezip.net
-datasaver.googleapis.com
-pixel.quantserve.com
-servicer.mgid.com
-b.scorecardresearch.com
-ad.mediawayss.com
-static.xx.fbcdn.net
-cdn.admixer.net
-www.googletagmanager.com
-mbox.m.bigmir.net
-growth-pa.googleapis.com
-s.zmctrack.net
-prebid-eu.creativecdn.com
-stats.g.doubleclick.net
-pubs2-eu.creativecdn.com
-inv-nets.admixer.net
-map16-100.s.section.io
-static.hotjar.com
-clientservices.googleapis.com
-proxy.googlezip.net
-opinel-market.com.ua
-csm.fr.eu.criteo.net
-ttt.onthe.io
-ag.gbc.criteo.com
-e4478.a.akamaiedge.net
-cdn.onthe.io
-lh4.googleusercontent.com
-lh6.googleusercontent.com
-lh3.ggpht.com
-lh4.ggpht.com
-lh5.ggpht.com
-lh6.ggpht.com
-yt3.ggpht.com
-app-measurement.com
-cdn.ampproject.org
-encrypted-tbn0.gstatic.com
-lh5.googleusercontent.com
-encrypted-tbn2.gstatic.com
-encrypted-tbn3.gstatic.com
-encrypted-tbn1.gstatic.com
-photosdata-pa.googleapis.com
-people-pa.googleapis.com
-lh3.googleusercontent.com
-content.admixer.net
-inv-nets-eu.admixer.net
-t.trafmag.com
-trafmag.com
+||trafmag.com^
+||fwdcdn.com^
+||adtelligent.com^
+||clients1.google.com^
+||b.klcheck.com^
+||adpartner.pro^
+||gemius.pl^
+||gstatic.com^
+||byeej.com^
+||tsyndicate.com^
+||creativecdn.com^
+||klcheck.com^
+||clients4.google.com^
+||googleads.g.doubleclick.net^
+||doubleclick.net^
+||clients2.google.ru^
+||clients3.google.ru^
+||clients1.google.ru^
+||clients4.google.ru^
+||clients2.google.com^
+||clients3.google.com^
+||clients1.google.com.ua^
+||clients2.google.com.ua^
+||clients3.google.com.ua^
+||clients4.google.com.ua^
+||id.google.com.ua^
+||content.admixer.net^
+||fwdcdn.com^
+||createjs.com^
+||google-analytics.com^
+||googlesyndication.com^
+||googletagservices.com^
+||jsdelivr.net^
+||mediatraffic.com.ua^
+||mediawayss.com^
+||phnx.link^
+||a4p.adpartner.pro^
+||admixer.net^
+||googletagmanager.com^
+||zmctrack.net^
+||yadro.ru^
+||recreativ.ru^
+||mixadvert.com^
+||addthis.com^
+||crazyegg.com^
+||rferl.org^
+||scorecardresearch.com^
+||phoenix-widget.com^
+||ajax.googleapis.com^
+||gravitec.net^
+||disqus.com^
+||disquscdn.com^
+||gravitec.com^
+||playbuzz.com^
+||piguiqproxy.com^
+||leokross.com^
+||s7.addthis.com^
+||static.doubleclick.net^
+||scontent.fiev5-1.fna.fbcdn.net^
+||pagead2.googlesyndication.com^
+||i.mediatraffic.com.ua^
+||counter.yadro.ru^
+||i.ytimg.com^
+||s.ytimg.com^
+||static-cl.xhcdn.com^
+||thumb-v-cl2.xhcdn.com^
+||am.phnx.link^
+||source.mmi.bemobile.ua^
+||gdeua.hit.gemius.pl^
+||script.hotjar.com^
+||inv-nets-eu.admixer.net^
+||cdn.tsyndicate.com^
+||compress.googlezip.net^
+||check.googlezip.net^
+||datasaver.googleapis.com^
+||pixel.quantserve.com^
+||servicer.mgid.com^
+||b.scorecardresearch.com^
+||ad.mediawayss.com^
+||static.xx.fbcdn.net^
+||cdn.admixer.net^
+||www.googletagmanager.com^
+||mbox.m.bigmir.net^
+||growth-pa.googleapis.com^
+||s.zmctrack.net^
+||prebid-eu.creativecdn.com^
+||stats.g.doubleclick.net^
+||pubs2-eu.creativecdn.com^
+||inv-nets.admixer.net^
+||map16-100.s.section.io^
+||static.hotjar.com^
+||clientservices.googleapis.com^
+||proxy.googlezip.net^
+||opinel-market.com.ua^
+||csm.fr.eu.criteo.net^
+||ttt.onthe.io^
+||ag.gbc.criteo.com^
+||e4478.a.akamaiedge.net^
+||cdn.onthe.io^
+||lh4.googleusercontent.com^
+||lh6.googleusercontent.com^
+||lh3.ggpht.com^
+||lh4.ggpht.com^
+||lh5.ggpht.com^
+||lh6.ggpht.com^
+||yt3.ggpht.com^
+||app-measurement.com^
+||cdn.ampproject.org^
+||encrypted-tbn0.gstatic.com^
+||lh5.googleusercontent.com^
+||encrypted-tbn2.gstatic.com^
+||gstatic.com^
+||encrypted-tbn3.gstatic.com^
+||encrypted-tbn1.gstatic.com^
+||photosdata-pa.googleapis.com^
+||people-pa.googleapis.com^
+||lh3.googleusercontent.com^
+||content.admixer.net^
+||inv-nets-eu.admixer.net^
+||t.trafmag.com^
+||trafmag.com^
