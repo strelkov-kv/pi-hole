@@ -27169,7 +27169,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||gravitec.com^
 ||playbuzz.com^
 ||piguiqproxy.com^
-||scontent.fiev5-1.fna.fbcdn.net^
 ||i.ytimg.com^
 ||s.ytimg.com^
 ||static-cl.xhcdn.com^
