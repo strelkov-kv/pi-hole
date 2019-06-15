@@ -23835,7 +23835,6 @@ t.yesware.com
 ^pix.nbcuni.com^
 ^pixel.buzzfeed.com^
 ^pixel.digitalspy.co.uk^
-^pixel.facebook.com^
 ^pixel.honestjohn.co.uk^
 ^pixel.klout.com^
 ^pixel.naij.com^
