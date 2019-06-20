@@ -3474,88 +3474,8 @@ zreluo.com
 zurgerya.ru
 zxrtn.com
 zycvyudt.com
-zz2017.ru
-аБаАаНбаЕаК.ббб
-баКбаОаП-аПаЕббббаКаА-аОаГбббб.бб
-баЕаЛбаГаА.бб
-ббб.бб
-!
-! Ads reinjection (For apps only)
-!
-!
-!+ NOT_PLATFORM(ios, ext_android_cb, ext_safari)
-cpm.wargaming.net
-!
-! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers_firstparty.txt]
-!
-!
-! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
-!
 stat.moonwalk.co
 an.blogis.org
-.freepicsel.ru
-.new-rutor.com.pl
-.pic2me.org
-://*.012345b.xyz
-://*.10pix.xyz
-://*.111ae.xyz
-://*.1abpix.xyz
-://*.1acpix.xyz
-://*.1alivs.xyz
-://*.1sexxx.com
-://*.2img-pic.ru
-://*.anime-free.net
-://*.bobfilm1.co
-://*.dorgroup.com
-://*.drampic.info
-://*.fast2img.ru
-://*.fasti2mages.ru
-://*.free-torrents.eu.org
-://*.freeimges.ru
-://*.freepixs.ru
-://*.freerutor.com
-://*.gigantporno.com
-://*.hd-720.biz
-://*.images-pix.ru
-://*.imagespics.ru
-://*.imgbum.ru
-://*.imgbun.ru
-://*.imgpics.ru
-://*.imgshance.ru
-://*.imgspic.ru
-://*.kinogo-720.co
-://*.kuponykz.ru
-://*.mnogabukaff.net
-://*.photopix.info
-://*.picmir.nu
-://*.picstraff.ru
-://*.pika-img.ru
-://*.pintastic.by
-://*.pix-images.ru
-://*.porno-gid2.info
-://*.pornogig.com
-://*.propix.info
-://*.protopix.info
-://*.purum-pup-pum.ru
-://*.rusdozor.ru
-://*.screenpix.ru
-://*.sexpornophoto.com
-://*.simpsonsvideos.ru
-://*.uniondht.org
-://*.videopron.ru
-ws*://video.docfilms.info
-action.evrikak.ru
-ad.4ertik.porn
-ad.cbonds.info
-ad.gameagregator.com
-ad.iplayer.org
-ad.kinogo-kinopoisk.net
-ad.topwar.ru
-adbetnet.com
-adf.hdkinoshka.net
-adf.kino-go.co
-adl.kinogo.by
-admachina.com.s.pstl.live
 ads.211.ru
 ads.dfiles.ru
 ads.livetvcdn.net
@@ -20151,9 +20071,6 @@ zumhice.pw
 8c32f38df7.com
 9b51b7efc6d2a.com
 a8a9455e53fbc75bc995.com
-!
-! [Inclusion: https://raw.githubusercontent.com/easylist/easylistgermany/master/easylistgermany/easylistgermany_adservers.txt]
-!
 4rm.de
 85.114.133.62
 a3h.de
@@ -20560,11 +20477,6 @@ z0a.de
 za-ads.de
 zieltracker.de
 zyxwvutsrqponmlkjihgfedcbazyxwvutsrqponmlkjihgfedcbazyxwvutsrqp.de
-! Mobile
-avault.net
-recognified.net
-!
-bestes-produkt-vong-kaufen-her.de
 connor-kauft.de
 da-shoppe-ich-gerne.de
 eckstein-eckstein-alles-muss-versteckt-sein.de
@@ -20575,23 +20487,6 @@ i-bims-ein-shopper.de
 ichkaufehierein.de
 maria-herzt.de
 meinelieblingsprodukte.de
-!
-! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/tracking_servers.txt]
-!
-!
-! Blocking Firebase crash reporting is quite problematic:
-! https://github.com/AdguardTeam/AdguardForAndroid/issues/1334#issuecomment-319302543
-! app-measurement.com
-!
-! Crashlytics is commented by @ameshkov.
-! The reason for unblocking crashlytics is to not make developers life worse by breaking crash reporting.
-! In a hostile network like when an ad blocker is present, apps might be crashing, and these errors need to be
-! reported to devs, otherwise they won't learn about the issue and won't fix it.
-! Also, it is not a common third-party analytics tracker, Crashlytics is not used for collecting users' data.
-! e.crashlytics.com
-! settings.crashlytics.com
-!
-profusesupport.com
 logger.pw
 log-ird.outbrain.com
 analytics*.clickdimensions.com
@@ -23531,74 +23426,6 @@ wateryvan.com
 wirecomic.com
 xovq5nemr.com
 zbwp6ghm.com
-! start: Big Star Labs
-yourblocksite.com
-taskapi.net
-!
-! start: Mail Tracking
-! note that we don't use  prefixes because mail tracking pixels are often proxied by mail providers
-! it's problematic that due to how Gmail proxy work, these domains aren't even exposed on the network level
-! fortunately, extensions can see them (Gmail puts the real URL in the location.hash part of the src)
-! MailTrack
-! HubSpot (getsidekick.com)
-! Boomerang (boomeranggmail.com)
-! Cirrus Inisght
-! Customer.io
-! Yesware
-t.yesware.com
-! SalesforceIQ
-! RelateIQ
-! Streak
-! LaunchBit
-! MailChimp
-! Postmark
-! iContact
-! Infusionsoft
-! Intercom
-! Mandrill
-! RJ Metrics
-! Mixpanel
-! Front App
-! ToutApp
-! Outreach
-! Mixmax
-! SendGrid
-! ExactTarget
-! Litmus
-! dotmailer
-! Drip
-! Bananatag
-! TinyLetter
-! ContactMonkey
-! Polymail
-! YAMM
-! GetResponse
-! Close.io
-! Return Path
-! NetHunt
-! JiveOn tracking
-!
-!+ NOT_PLATFORM (windows, mac, android)
-!
-! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/tracking_servers_firstparty.txt]
-!
-!
-! Section contains the list of tracking servers, which are hosted on useful sites as subdomains
-!
-! https://github.com/AdguardTeam/AdguardFilters/issues/25467
-ct.pinterest.com
-!
-! Big Star Labs
-ben.crxmouse.com
-api2.poperblocker.com
-! start: unimania
-d10vy5gom1ed53.cloudfront.net
-um-public-panel-prod.s3.amazonaws.com
-collection-endpoint-prod.herokuapp.com
-collection-endpoint-staging.herokuapp.com
-! end:
-!
-1dmp.io
 marketing.net.brillen.de
 app.airtrack.jp
 xray.mail.ru
@@ -24598,7 +24425,6 @@ metrics.tv2.dk
 analytics.faw.sky.com
 analytics.global.sky.com
 tracker.downdetector.com
-d7d3cf2e81d293050033-3dfc0615b0fd7b49143049256703bfce.ssl.cf1.rackcdn.com
 odb.outbrain.com
 tracking.target2sell.com
 d3phbp7p78bdk9.cloudfront.net
@@ -26189,11 +26015,6 @@ getaim.info
 ! Vietnamese
 amcdn.vn
 contineljs.com
-!
-! [Inclusion: https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_thirdparty.txt]
-!
-188.225.25.145
-51network.com
 a2a.lockerz.com
 aaa.aj5.info
 aan.amazon.com
@@ -27014,9 +26835,6 @@ x.weather.com
 yapi.awe.sm
 ys.ddns.me
 zvsuhljiha-a.akamaihd.net
-! Russian
-|http://a.pr-cy.ru
-|https://a.pr-cy.ru
 awaps.yandex.ru
 cnstats.cdev.eu
 cnt.rate.ru
