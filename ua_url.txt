@@ -53,7 +53,6 @@
 ||st5.recreativ.ru^
 ||source.mmi.bemobile.ua^
 ||ls.hit.gemius.pl^
-||upst.fwdcdn.com^
 ||bam.nr-data.net^
 ||js-agent.newrelic.com^
 ||vars.hotjar.com^
