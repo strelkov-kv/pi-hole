@@ -71,3 +71,9 @@
 ||cdn.onesignal.com^
 ||i.mediatraffic.com.ua^
 ||ua.traffim.com^
+||static-cl.xhcdn.com^
+||static.pladform.ru^
+||sb.scorecardresearch.com^
+||yastatic.net^
+||cs.digitalbox.ru^
+||pushsender.pro^
