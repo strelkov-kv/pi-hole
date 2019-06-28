@@ -28,7 +28,7 @@
 ||pagead2.googlesyndication.com^
 ||tag.digitaltarget.ru^
 ||stats.g.doubleclick.net^
-||||api.mixpanel.com^
+||api.mixpanel.com^
 ||adclick.g.doubleclick.net^
 ||kpmediagaua.hit.gemius.pl^
 ||kpmediagaua.hit.gemius.pl^
@@ -61,7 +61,6 @@
 ||betsonsport.ru^
 ||mywinspin.ru^
 ||counter.yadro.ru^
-||static.t-ru.org^
 ||cdn.braun634.com^
 ||metagaua.hit.gemius.pl^
 ||hit.gemius.pl^
@@ -70,7 +69,6 @@
 ||cdn.onesignal.com^
 ||i.mediatraffic.com.ua^
 ||ua.traffim.com^
-||static-cl.xhcdn.com^
 ||static.pladform.ru^
 ||sb.scorecardresearch.com^
 ||yastatic.net^
