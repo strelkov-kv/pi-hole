@@ -2,75 +2,75 @@
 !
 #Adblock filter list UA
 !
-||inv-nets-eu.admixer.net^
-||googleads.g.doubleclick.net^
-||doubleclick.net^
-||recreativ.ru^
-||t.trafmag.com^
-||trafmag.com^
-||a4p.adpartner.pro^
-||ib.anycast.adnxs.com^
-||proxy.googlezip.net^
-||compress.googlezip.net^
-||clients4.google.com^
-||inv-nets.admixer.net^
-||admixer.net^
-||gaua.hit.gemius.pl^
-||s.zmctrack.net^
-||lh3.googleusercontent.com^
-||clients3.google.com^
-||clients1.google.com^
-||adservice.google.com.ua^
-||adservice.google.com^
-||ad.mediawayss.com^
-||creativecdn.com^
-||ls.hit.gemius.pl^
-||pagead2.googlesyndication.com^
-||tag.digitaltarget.ru^
-||stats.g.doubleclick.net^
-||api.mixpanel.com^
-||adclick.g.doubleclick.net^
-||kpmediagaua.hit.gemius.pl^
-||kpmediagaua.hit.gemius.pl^
-||m.mixadvert.com^
-||admixer.net^
-||doubleclick.net^
-||m.optout.ziffdavis.com^
-||check.googlezip.net^
-||securepubads.g.doubleclick.net^
-||pubads.g.doubleclick.net^
-||static.doubleclick.net^
-||ssl.google-analytics.com^
-||am.phnx.link^
-||cdn.admixer.net^
-||code.jquery.com^
-||v3track.net^
-||stori3.antiprostatit.com^
-||nc-ru.redtram.com^
-||n4p-ru.redtram.com^
-||c.disquscdn.com^
-||lh5.googleusercontent.com^
-||st5.recreativ.ru^
-||source.mmi.bemobile.ua^
-||ls.hit.gemius.pl^
-||bam.nr-data.net^
-||js-agent.newrelic.com^
-||vars.hotjar.com^
-||cdn.jsdelivr.net^
-||robinbob.in^
-||betsonsport.ru^
-||mywinspin.ru^
-||counter.yadro.ru^
-||cdn.braun634.com^
-||metagaua.hit.gemius.pl^
-||hit.gemius.pl^
-||gemius.pl^
-||sslpagestat.mmi.bemobile.ua^
-||cdn.onesignal.com^
-||i.mediatraffic.com.ua^
-||ua.traffim.com^
-||static.pladform.ru^
-||sb.scorecardresearch.com^
-||yastatic.net^
-||cs.digitalbox.ru^
-||pushsender.pro^
+0.0.0.0 inv-nets-eu.admixer.net
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 doubleclick.net
+0.0.0.0 recreativ.ru
+0.0.0.0 t.trafmag.com
+0.0.0.0 trafmag.com
+0.0.0.0 a4p.adpartner.pro
+0.0.0.0 ib.anycast.adnxs.com
+0.0.0.0 proxy.googlezip.net
+0.0.0.0 compress.googlezip.net
+0.0.0.0 clients4.google.com
+0.0.0.0 inv-nets.admixer.net
+0.0.0.0 admixer.net
+0.0.0.0 gaua.hit.gemius.pl
+0.0.0.0 s.zmctrack.net
+0.0.0.0 lh3.googleusercontent.com
+0.0.0.0 clients3.google.com
+0.0.0.0 clients1.google.com
+0.0.0.0 adservice.google.com.ua
+0.0.0.0 adservice.google.com
+0.0.0.0 ad.mediawayss.com
+0.0.0.0 creativecdn.com
+0.0.0.0 ls.hit.gemius.pl
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 tag.digitaltarget.ru
+0.0.0.0 stats.g.doubleclick.net
+0.0.0.0 api.mixpanel.com
+0.0.0.0 adclick.g.doubleclick.net
+0.0.0.0 kpmediagaua.hit.gemius.pl
+0.0.0.0 kpmediagaua.hit.gemius.pl
+0.0.0.0 m.mixadvert.com
+0.0.0.0 admixer.net
+0.0.0.0 doubleclick.net
+0.0.0.0 m.optout.ziffdavis.com
+0.0.0.0 check.googlezip.net
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 pubads.g.doubleclick.net
+0.0.0.0 static.doubleclick.net
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 am.phnx.link
+0.0.0.0 cdn.admixer.net
+0.0.0.0 code.jquery.com
+0.0.0.0 v3track.net
+0.0.0.0 stori3.antiprostatit.com
+0.0.0.0 nc-ru.redtram.com
+0.0.0.0 n4p-ru.redtram.com
+0.0.0.0 c.disquscdn.com
+0.0.0.0 lh5.googleusercontent.com
+0.0.0.0 st5.recreativ.ru
+0.0.0.0 source.mmi.bemobile.ua
+0.0.0.0 ls.hit.gemius.pl
+0.0.0.0 bam.nr-data.net
+0.0.0.0 js-agent.newrelic.com
+0.0.0.0 vars.hotjar.com
+0.0.0.0 cdn.jsdelivr.net
+0.0.0.0 robinbob.in
+0.0.0.0 betsonsport.ru
+0.0.0.0 mywinspin.ru
+0.0.0.0 counter.yadro.ru
+0.0.0.0 cdn.braun634.com
+0.0.0.0 metagaua.hit.gemius.pl
+0.0.0.0 hit.gemius.pl
+0.0.0.0 gemius.pl
+0.0.0.0 sslpagestat.mmi.bemobile.ua
+0.0.0.0 cdn.onesignal.com
+0.0.0.0 i.mediatraffic.com.ua
+0.0.0.0 ua.traffim.com
+0.0.0.0 static.pladform.ru
+0.0.0.0 sb.scorecardresearch.com
+0.0.0.0 yastatic.net
+0.0.0.0 cs.digitalbox.ru
+0.0.0.0 pushsender.pro
