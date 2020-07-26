@@ -1,4 +1,7 @@
-
+#------------------------------------[UPDATE]--------------------------------------
+# Title: The Block List Project UA
+# Expires: 30 day
+# Pi-Hole list: https://raw.githubusercontent.com/strelkov-kv/pi-hole/master/ua-pihole
 #-------------------------------------[INFO]---------------------------------------
 # 
 # ua list pihole
