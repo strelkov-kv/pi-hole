@@ -1,0 +1,22 @@
+
+#-------------------------------------[INFO]---------------------------------------
+# 
+# ua list pihole
+#
+#------------------------------------[FILTERS]-------------------------------------
+
+
+0.0.0.0	i.holder.com.ua
+0.0.0.0	admixer.net
+0.0.0.0	api.phnx.click
+0.0.0.0	r.i.ua
+0.0.0.0	gaua.hit.gemius.pl
+0.0.0.0	counter.yadro.ru
+0.0.0.0	i.bigmir.net
+0.0.0.0	jsc.idealmedia.io
+0.0.0.0	pagead2.googlesyndication.com
+0.0.0.0	c.bigmir.net
+0.0.0.0	cdn.admixer.net
+0.0.0.0	kpmediagaua.hit.gemius.pl
+0.0.0.0	luxins.net
+0.0.0.0	a4p.adpartner.pro
